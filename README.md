@@ -2,11 +2,13 @@
 
 TODO: Write a gem description
 
-[![Build Status](https://travis-ci.org/alienware/mire.png?branch=master)](https://travis-ci.org/Integralist/Sinderella)
-
 [![Gem Version](https://badge.fury.io/rb/mire.png)](http://badge.fury.io/rb/mire)
 
+[![Build Status](https://travis-ci.org/alienware/mire.png?branch=master)](https://travis-ci.org/Integralist/Sinderella)
+
 [![Coverage Status](https://coveralls.io/repos/alienware/mire/badge.png?branch=master)](https://coveralls.io/r/alienware/mire?branch=master)
+
+[![Code Climate](https://codeclimate.com/github/alienware/mire/badges/gpa.svg)](https://codeclimate.com/github/alienware/mire)
 
 ## Installation
 
