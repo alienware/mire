@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require_relative '../lib/mire'
+include Mire
+if ARGV.empty?
+  Mire::CLI.start(%w[usage])
+else
+  Mire::CLI.start(%w[execute].concat(ARGV))
+end

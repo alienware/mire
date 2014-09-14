@@ -1,11 +1,7 @@
-guard 'rspec' do
-  # watch /lib/ files
-  watch(%r{^lib/(.+).rb$}) do |m|
-    "spec/#{m[1]}_spec.rb"
-  end
-
-  # watch /spec/ files
-  watch(%r{^spec/(.+).rb$}) do |m|
-    "spec/#{m[1]}.rb"
-  end
+# A sample Guardfile
+# More info at https://github.com/guard/guard#readme
+guard :rspec, cmd: 'rspec', all_on_start: true, all_after_pass: true do
+  watch(%r{^spec/.+_spec\.rb$})
+  watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
+  watch('spec/spec_helper.rb')  { "spec" }
 end
