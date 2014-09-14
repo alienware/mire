@@ -4,7 +4,12 @@ require 'active_support/core_ext/object/blank'
 require 'active_support/core_ext/hash/keys'
 require 'active_support/core_ext/hash/indifferent_access'
 require 'active_support/core_ext/kernel/reporting'
+require 'active_support/inflector/inflections'
+require 'active_support/inflector/transliterate'
+require 'active_support/inflector/methods'
+require 'active_support/inflections'
+require 'active_support/core_ext/string/inflections'
 require_relative 'mire/version'
 require_relative 'mire/mire'
 require_relative 'mire/cli'
-include Mire
+
