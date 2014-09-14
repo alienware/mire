@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = Mire::VERSION
   spec.authors       = ['Tanay Upadhyaya']
   spec.email         = ['tanay@genii.in']
-  spec.summary       = %q{CLI template for Mire}
+  spec.summary       = %q{My IvRs gEnie}
   spec.description   = %q{The starting template for Mire}
   spec.homepage      = 'https://github.com/alienware/mire'
   spec.required_ruby_version = ">= 1.9.3"
