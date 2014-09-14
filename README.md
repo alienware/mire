@@ -2,6 +2,12 @@
 
 TODO: Write a gem description
 
+[![Build Status](https://travis-ci.org/alienware/mire.png?branch=master)](https://travis-ci.org/Integralist/Sinderella)
+
+[![Gem Version](https://badge.fury.io/rb/mire.png)](http://badge.fury.io/rb/mire)
+
+[![Coverage Status](https://coveralls.io/repos/alienware/mire/badge.png)](https://coveralls.io/r/alienware/mire)
+
 ## Installation
 
 Add this line to your application's Gemfile:
