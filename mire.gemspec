@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 0.24.0'
   spec.add_development_dependency 'yard', '~> 0.8.7'
   spec.add_development_dependency 'coveralls'
-  spec.add_development_dependency 'codeclimate-test-reporter', require: nil
+  spec.add_development_dependency 'codeclimate-test-reporter'
 
   # third party gem dependencies
   spec.add_dependency 'twilio-ruby', '~> 3.12'
