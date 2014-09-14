@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 [![Gem Version](https://badge.fury.io/rb/mire.png)](http://badge.fury.io/rb/mire)
 
-[![Coverage Status](https://coveralls.io/repos/alienware/mire/badge.png)](https://coveralls.io/r/alienware/mire)
+[![Coverage Status](https://coveralls.io/repos/alienware/mire/badge.png?branch=master)](https://coveralls.io/r/alienware/mire?branch=master)
 
 ## Installation
 
