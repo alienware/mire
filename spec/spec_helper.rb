@@ -1,6 +1,9 @@
 require 'rspec'
 require 'pry'
 require 'awesome_print'
+require 'coveralls'
+Coveralls.wear!
+
 require_relative '../lib/mire'
 include Mire
 RSpec.configure do |config|
