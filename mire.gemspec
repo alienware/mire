@@ -35,7 +35,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'yard', '~> 0.8.7'
   spec.add_development_dependency 'coveralls'
   spec.add_development_dependency 'codeclimate-test-reporter'
+  spec.add_development_dependency 'faker'
+  spec.add_development_dependency 'factory_girl', '~> 4.0'
 
   # third party gem dependencies
-  spec.add_dependency 'twilio-ruby', '~> 3.12'
+  spec.add_runtime_dependency 'twilio-ruby', '~> 3.12'
 end

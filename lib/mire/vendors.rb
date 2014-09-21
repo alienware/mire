@@ -1,2 +1,2 @@
-require 'twilio-ruby'
-require_relative 'vendors/twilio'
+require_relative 'vendors/supported'
+require_relative 'vendors/unsupported'

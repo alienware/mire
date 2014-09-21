@@ -5,6 +5,8 @@ require 'pry'
 require 'awesome_print'
 require 'coveralls'
 Coveralls.wear!
+require 'factory_girl'
+require 'faker'
 
 require_relative '../lib/mire'
 include Mire
